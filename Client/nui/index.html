@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="notes.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="notes">
+            <img
+                src="notes.png"
+                alt="Notes"
+                width="500px"
+                height="500px"
+                id="notesImage"
+            />
+
+            <div id="back-button">&#8249; Back</div>
+            <div id="forward-button">Fwd. &#8250;</div>
+            <div id="new-button">+ New Note</div>
+
+            <textarea
+                name="textArea"
+                id="textArea"
+                cols="30"
+                rows="10"
+                placeholder="Enter text here. . . ."
+            ></textarea>
+
+            <div id="delete-button">&#128465; Delete note</div>
+            <div id="save-button">Save note</div>
+        </div>
+        <script src="notes.js"></script>
+    </body>
+</html>

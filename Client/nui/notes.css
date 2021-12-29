@@ -1,0 +1,84 @@
+#notes {
+    display: none;
+    position: absolute;
+    left: 590px;
+    bottom: 0px;
+}
+
+#back-button {
+    position: absolute;
+    left: 20px;
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10%;
+    top: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#forward-button {
+    position: absolute;
+    right: 20px;
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10%;
+    top: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#new-button {
+    background-color: green;
+    position: absolute;
+    left: 250px;
+    top: 45px;
+    padding: 5px;
+    color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+#textArea {
+    position: absolute;
+    left: 30px;
+    border: 1px solid red;
+    top: 60px;
+    width: 435px;
+    text-align: justify;
+    height: 405px;
+    font-family: cursive;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: transparent;
+    border: 0 none;
+    resize: none;
+}
+
+#delete-button {
+    border-radius: 10%;
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    left: 20px;
+    bottom: 2px;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#save-button {
+    border-radius: 10%;
+    border: 1px solid orange;
+    background-color: orange;
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+    padding: 5px;
+    color: white;
+    width: max-content;
+    cursor: pointer;
+}
